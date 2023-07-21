@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title("Hi 36 cedar")
 st.subheader("This is todo app")
+st.subheader("Double click on the check box to delete the completed todo")
+
 add_todo = st.text_input("enter something")
 print(add_todo)
 
